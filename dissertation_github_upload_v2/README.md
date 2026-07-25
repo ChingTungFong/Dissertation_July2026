@@ -179,12 +179,6 @@ The AI second coder used in the 200-comment validation reference set was **Claud
 
 ---
 
-## License
-
-The code in this repository is released under the [MIT License](./LICENSE). Pseudonymised data files are released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), reflecting the non-commercial academic-use scope of the ethics approval.
-
----
-
 ## Acknowledgements
 
 The classification rubrics in `02c_llm_classification.ipynb` were grounded in the psychological-measurement literature on parasocial interaction (Horton & Wohl, 1956; Rubin, Perse, & Powell, 1985), benign and malicious envy (van de Ven, Zeelenberg, & Pieters, 2009; Lange & Crusius, 2015), and impulsive buying tendency (Rook & Fisher, 1995). Full APA references are in the dissertation Methods chapter.
