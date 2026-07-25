@@ -6,29 +6,6 @@ Code, notebooks, and analytical scripts supporting an MSc Business Analytics dis
 
 ---
 
-## Citation
-
-**APA 7:**
-
-> Fong, S. (2026). *From envy to purchase: The role of parasocial interaction in social media influencer marketing — Dissertation code repository* [Computer software]. GitHub. https://github.com/<your-username>/<your-repo-name>
-
-**BibTeX:**
-
-```bibtex
-@software{fong2026_envy_purchase,
-  author       = {Fong, Sabrina},
-  title        = {From Envy to Purchase: The Role of Parasocial Interaction in
-                  Social Media Influencer Marketing --- Dissertation Code Repository},
-  year         = {2026},
-  publisher    = {GitHub},
-  url          = {https://github.com/<your-username>/<your-repo-name>}
-}
-```
-
-Replace the placeholder URL with the actual repository URL once published. For a persistent citation, consider archiving on [Zenodo](https://zenodo.org/) to obtain a DOI.
-
----
-
 ## Overview
 
 This repository contains the computational workflow used to construct, classify, anonymise, and analyse a corpus of **4,500 Reddit comments** referencing **16 beauty-and-fashion influencers** (eight mega-tier, ≥ 1M followers; eight micro/meso-tier, 50K–300K followers) across **seven subreddits** between **January 2023 and May 2025**.
@@ -205,15 +182,6 @@ The AI second coder used in the 200-comment validation reference set was **Claud
 ## License
 
 The code in this repository is released under the [MIT License](./LICENSE). Pseudonymised data files are released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), reflecting the non-commercial academic-use scope of the ethics approval.
-
----
-
-## Author
-
-**Sabrina Fong**
-MSc Business Analytics, Trinity Business School, Trinity College Dublin
-Email: [insert your Trinity email]
-Supervisor: [insert supervisor name and email]
 
 ---
 
