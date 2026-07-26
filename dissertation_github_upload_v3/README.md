@@ -4,30 +4,6 @@
 
 Code, notebooks, and analytical scripts supporting an MSc Business Analytics dissertation that investigates how influencer tier (mega vs micro/meso) shapes commenter expression of benign envy, malicious envy, parasocial interaction (PSI), and purchase intent (PI) in beauty-and-fashion Reddit discussion, and how these constructs sort commenters into distinct latent response profiles.
 
----
-
-## Citation
-
-**APA 7:**
-
-> Fong, S. (2026). *From envy to purchase: The role of parasocial interaction in social media influencer marketing — Dissertation code repository* [Computer software]. GitHub. https://github.com/<your-username>/<your-repo-name>
-
-**BibTeX:**
-
-```bibtex
-@software{fong2026_envy_purchase,
-  author       = {Fong, Sabrina},
-  title        = {From Envy to Purchase: The Role of Parasocial Interaction in
-                  Social Media Influencer Marketing --- Dissertation Code Repository},
-  year         = {2026},
-  publisher    = {GitHub},
-  url          = {https://github.com/<your-username>/<your-repo-name>}
-}
-```
-
-Replace the placeholder URL with the actual repository URL once published. For a persistent citation, consider archiving on [Zenodo](https://zenodo.org/) to obtain a DOI.
-
----
 
 ## Overview
 
@@ -202,21 +178,4 @@ The AI second coder used in the 200-comment validation reference set was **Claud
 
 ---
 
-## License
 
-The code in this repository is released under the [MIT License](./LICENSE). Pseudonymised data files are released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), reflecting the non-commercial academic-use scope of the ethics approval.
-
----
-
-## Author
-
-**Sabrina Fong**
-MSc Business Analytics, Trinity Business School, Trinity College Dublin
-Email: [insert your Trinity email]
-Supervisor: [insert supervisor name and email]
-
----
-
-## Acknowledgements
-
-The classification rubrics in `02c_llm_classification.ipynb` were grounded in the psychological-measurement literature on parasocial interaction (Horton & Wohl, 1956; Rubin, Perse, & Powell, 1985), benign and malicious envy (van de Ven, Zeelenberg, & Pieters, 2009; Lange & Crusius, 2015), and impulsive buying tendency (Rook & Fisher, 1995). Full APA references are in the dissertation Methods chapter.
