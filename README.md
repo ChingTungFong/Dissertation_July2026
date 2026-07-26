@@ -168,16 +168,6 @@ The AI second coder used in the 200-comment validation reference set was **Claud
 
 ---
 
-## Limitations (documented in full in the dissertation)
-
-- **PSI measurement validity** — F1 = 0.29 is below the conventional validity threshold; PSI-involving findings are exploratory throughout.
-- **Benign envy F1 = 0.58** is marginal; BE-involving findings are reported with the F1 limitation noted.
-- **65% of authors are single-commenters** and are therefore excluded from the LCA (which requires ≥ 3 comments per author). The 340-author LCA sample is more prolific than the average commenter.
-- **Influencer panel size (n = 16)**. The cross-classified RE diagnostic shows influencer variance carries only 0.4–3.5% of the total; between-influencer inference is under-powered.
-- **AI second coder from the same model family as the primary classifier** (both are Anthropic Claude). Inter-coder agreement between them therefore partly reflects shared training rather than independent validation. See Methods §X.X and Limitations §Y.Y.
-- **Kackie Reviews Beauty** — one of the 16 influencers had her Instagram account terminated during the study period, so tier assignment for this account reflects historical pre-termination follower count rather than a currently verifiable count.
-
----
 
 ## Acknowledgements
 
