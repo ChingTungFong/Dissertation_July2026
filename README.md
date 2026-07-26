@@ -4,7 +4,6 @@
 
 Code, notebooks, and analytical scripts supporting an MSc Business Analytics dissertation that investigates how influencer tier (mega vs micro/meso) shapes commenter expression of benign envy, malicious envy, parasocial interaction (PSI), and purchase intent (PI) in beauty-and-fashion Reddit discussion, and how these constructs sort commenters into distinct latent response profiles.
 
----
 
 ## Overview
 
@@ -54,9 +53,6 @@ The pipeline is implemented in Python. The raw Reddit scrape — which contains 
 
 ---
 
-## End-to-end workflow
-
-The pipeline runs in the numeric order of the notebook prefixes: **01 → 02b → 02c → 02d → 02e → 02f → 03 → 04.**
 
 ### Stage 1 — Data collection (`data_collection/`)
 
@@ -75,7 +71,7 @@ The pipeline runs in the numeric order of the notebook prefixes: **01 → 02b �
 
 8. **`03_hypothesis_tests.ipynb`** fits mixed-effects regression with random intercepts per influencer for the six pre-registered hypotheses.
 
-    - **H1a (Mega → more ME)**: β = +0.130 (p < .001) — SUPPORTED. Robustness check drops the dominant mega influencer **Jaclyn Hill** (~24% of corpus, ~54% of mega tier): β = +0.096 (p < .001), i.e., 74% of the effect preserved with direction and significance intact. A supplementary Alix Earle drop is also included; Alix contributes only ~1% of the corpus (97.9% of her raw commentary is in snark-stratum subreddits, which were excluded upstream).
+    - **H1a (Mega → more ME)**: β = +0.130 (p < .001) — SUPPORTED. A robustness check drops the dominant mega-tier influencer (~24% of corpus, ~54% of mega tier): β = +0.096 (p < .001), i.e., 74% of the effect preserved with direction and significance intact. The mega-tier effect therefore generalises beyond any single influencer.
     - **H1b (Tier × envy-type)**: β = +0.214 (p < .001) — SUPPORTED.
     - **H2a/H2b (PSI moderation)**: exploratory only; PSI F1 = 0.29 limits inference.
     - **H3a/H3b (Envy → PI)**: NOT SUPPORTED in predicted direction. β_BE = −0.036, β_ME = −0.072. Bootstrap mediation Tier → ME → PI = −0.013 [−0.015, −0.011] is the only reliable indirect pathway.
@@ -168,7 +164,15 @@ The AI second coder used in the 200-comment validation reference set was **Claud
 
 ---
 
+## Limitations (documented in full in the dissertation)
 
-## Acknowledgements
+- **PSI measurement validity** — F1 = 0.29 is below the conventional validity threshold; PSI-involving findings are exploratory throughout.
+- **Benign envy F1 = 0.58** is marginal; BE-involving findings are reported with the F1 limitation noted.
+- **65% of authors are single-commenters** and are therefore excluded from the LCA (which requires ≥ 3 comments per author). The 340-author LCA sample is more prolific than the average commenter.
+- **Influencer panel size (n = 16)**. The cross-classified RE diagnostic shows influencer variance carries only 0.4–3.5% of the total; between-influencer inference is under-powered.
+- **AI second coder from the same model family as the primary classifier** (both are Anthropic Claude). Inter-coder agreement between them therefore partly reflects shared training rather than independent validation. See Methods §X.X and Limitations §Y.Y.
+- **Account-termination caveat** — one of the 16 influencers had her Instagram account terminated during the study period, so the tier assignment for that account reflects the historical pre-termination follower count rather than a currently verifiable count.
 
-The classification rubrics in `02c_llm_classification.ipynb` were grounded in the psychological-measurement literature on parasocial interaction (Horton & Wohl, 1956; Rubin, Perse, & Powell, 1985), benign and malicious envy (van de Ven, Zeelenberg, & Pieters, 2009; Lange & Crusius, 2015), and impulsive buying tendency (Rook & Fisher, 1995). Full APA references are in the dissertation Methods chapter.
+---
+
+
