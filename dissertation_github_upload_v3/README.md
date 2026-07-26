@@ -53,9 +53,6 @@ The pipeline is implemented in Python. The raw Reddit scrape — which contains 
 
 ---
 
-## End-to-end workflow
-
-The pipeline runs in the numeric order of the notebook prefixes: **01 → 02b → 02c → 02d → 02e → 02f → 03 → 04.**
 
 ### Stage 1 — Data collection (`data_collection/`)
 
