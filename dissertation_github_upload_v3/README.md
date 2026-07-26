@@ -117,20 +117,6 @@ Key packages: `pandas`, `numpy`, `scipy`, `statsmodels`, `matplotlib`, `seaborn`
 
 ---
 
-## Data availability
-
-| File | Included in this repo? | Reason |
-|---|---|---|
-| `comments_raw_full.csv` (raw scrape with real usernames) | **No** | Contains PII |
-| `pseudonym_mapping.csv` (username → pseudonym lookup) | **No** | Restricted; kept separately |
-| `.env` (API key + salt) | **No** | Contains secrets |
-| `comments_scored_llm.csv` (pseudonymised, LLM-scored) | **Yes** | Deterministic pseudonyms only; no PII |
-| `author_lca_classes.csv` (one row per pseudonym) | **Yes** | LCA class assignments |
-
-The pseudonymised files plus the analysis notebooks (03, 04) reproduce every result reported in the dissertation. Raw data are retained under restricted access for the institutional minimum retention period and may be requested by academic examiners via the author's supervisor.
-
----
-
 ## Ethics statement
 
 This study was conducted in accordance with:
